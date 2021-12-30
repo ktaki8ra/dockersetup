@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+usermod -aG docker staging
+usermod -aG docker production
+
