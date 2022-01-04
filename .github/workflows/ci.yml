@@ -15,3 +15,5 @@ jobs:
         run: sudo chmod +x install_docker && sudo ./install_docker
       - name: Check docker version
         run: sudo docker -v
+      - name: Check docker-compose version
+        run: sudo docker-compose -v
